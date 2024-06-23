@@ -1,0 +1,9 @@
+document.addEventListener("click",event=>{
+    mybox.textContent="ooch";
+})
+document.addEventListener("mouseover",event=>{
+    mybox.textContent="don't";
+})
+document.addEventListener("mouseout",event=>{
+    mybox.textContent="clickme";
+})
